@@ -3,7 +3,7 @@ Flowchart image &amp; caption crawling for CC BY-NC-SA 4.0 licensed papers
 
 <목표>
 1. arXiv 논문 중 (CC BY 4.0 이상의 라이선스를 가진) 논문에서 flowchart 이미지 & 캡션 pair 크롤링
-2. 수집한 pair를 유형 분류 (ex: 모델, 흐름도)
+2. 수집한 pair를 유형 분류 (ex: 이미지 포함O, 이미지 포함X)
 
 <방법>
 - HuggingFace의 오픈 데이터셋 ArxivCap을 활용 (Dataset Summary: The ArxivCap dataset consists of 6.4 million images and 3.9 million captions with 193 million words from 570k academic papers accompanied with abstracts and titles. (papers before June 2023))
@@ -11,4 +11,5 @@ Flowchart image &amp; caption crawling for CC BY-NC-SA 4.0 licensed papers
 - 2nd step: image viewer를 활용하여 실제로 flowchart이미지인 것만을 추가 검수.
 
 <결과>
-- 1st step에서 8000개 수집 후, 2nd step에서 2000개 검수하여 191개의 flow chart image 및 캡션 수집 완료.
+- 1st step에서 8000개 수집 후, 2nd step에서 3000개 검수하여 259개의 flow chart image 및 캡션 수집 완료.
+- 259개의 이미지를 이미지가 포함된 플로우 차트 42개, 이미지가 포함되지 않은 플로우 차트 217개로 분류 완료.
