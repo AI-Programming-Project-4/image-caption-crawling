@@ -23,10 +23,10 @@ Flowchart image &amp; caption crawling for CC BY-NC-SA 4.0 licensed papers
 
 <복잡하여 제거된 플로우차트 예시>
 A. 전형적인 플로우차트 이미지가 아닌 것
-<img width="2016" height="1185" alt="001188" src="https://github.com/user-attachments/assets/85ef5535-eb4e-41d4-89e8-4cb884e5da55" />
-<img width="2016" height="1427" alt="001297" src="https://github.com/user-attachments/assets/744f2bed-4d9e-4be9-8cbe-e573f6bff6c0" />
+<img width="1008" height="592" alt="001188" src="https://github.com/user-attachments/assets/85ef5535-eb4e-41d4-89e8-4cb884e5da55" />
+<img width="1008" height="713" alt="001297" src="https://github.com/user-attachments/assets/744f2bed-4d9e-4be9-8cbe-e573f6bff6c0" />
 
 B. 전형적인 플로우차트 이미지이지만 depth가 10이상인 것
-<img width="1345" height="2016" alt="000786" src="https://github.com/user-attachments/assets/b66f32da-909a-48c2-b11c-f178c3cb6c1a" />
-<img width="2016" height="1433" alt="000771" src="https://github.com/user-attachments/assets/56a6d8ec-4546-4634-beb8-a8ce700c0e6e" />
+<img width="672" height="1008" alt="000786" src="https://github.com/user-attachments/assets/b66f32da-909a-48c2-b11c-f178c3cb6c1a" />
+<img width="1008" height="716" alt="000771" src="https://github.com/user-attachments/assets/56a6d8ec-4546-4634-beb8-a8ce700c0e6e" />
 
