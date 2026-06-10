@@ -13,15 +13,16 @@ Flowchart image &amp; caption crawling for CC BY-NC-SA 4.0 licensed papers
 - 4th step: 너무 복잡한 플로우차트는 학습에 방해되므로 간단한 flowchart만 남기는 방향으로 추가 검수
 
 <결과>
-- 1st step에서 8000개 수집 후, 2nd step에서 3000개 검수하여 259개의 flow chart image 및 캡션 수집 완료. (디렉토리: images_flowcharts)
-- 259개의 이미지를 이미지가 포함된 플로우 차트 42개, 이미지가 포함되지 않은 플로우 차트 217개로 분류 완료. (디렉토리: images_flowcharts_exclude_image, images_flowcharts_include_image)
-- 복잡한 플로우차트 이미지를 제거하여 최종적으로 이미지가 포함된 플로우 차트 36개, 이미지가 포함되지 않은 플로우 차트 196개로 분류 완료. (디렉토리: images_flowcharts_exclude_image_final, images_flowcharts_include_image_final)
+- 1st step에서 8000개 수집 후, 2nd step에서 5000개 검수하여 397개의 flow chart image 및 캡션 수집 완료. (디렉토리: images_flowcharts)
+- 397개의 이미지를 이미지가 포함된 플로우 차트 67개, 이미지가 포함되지 않은 플로우 차트 330개로 분류 완료. (디렉토리: images_flowcharts_exclude_image, images_flowcharts_include_image)
+- 1차 데이터 정제: 복잡한 플로우차트 이미지를 제거하여 이미지가 포함된 플로우 차트 57개, 이미지가 포함되지 않은 플로우 차트 281개로 분류 완료. (디렉토리: images_flowcharts_exclude_image_final, images_flowcharts_include_image_final)
+- 2차 데이터 정제: 더 엄격하게(사각형 위주의 엔티티일 것, 직선과 직각 위주의 화살표일 것, 텍스트가 적은 흰 배경일 것) 복잡한 플로우차트 이미지를 제거하여 최종적으로 이미지가 포함된 플로우 차트 16개, 이미지가 포함되지 않은 플로우 차트 105개로 분류 완료. (디렉토리: images_flowcharts_exclude_image_final_2, images_flowcharts_include_image_final_2)
 
-<복잡한 플로우차트 이미지 제거 기준>
+<1차 데이터 정제 이미지 제거 기준>
 - 전형적인 플로우차트 이미지(주로 도형과 화살표로 이루어져 일정한 흐름이 있는 플로우차트)만 유지
 - depth가 10 이상인 플로우차트 제거
 
-<복잡하여 제거된 플로우차트 예시>
+<1차 데이터 정제 과정에서 제거된 플로우차트 예시>
 
 A. 전형적인 플로우차트 이미지가 아닌 것
 
